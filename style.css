@@ -145,7 +145,11 @@ input:focus{
     border: solid black;
 }
 input:invalid{
-    border: solid red;
+    border-color:  red;
+    
+}
+input:valid{
+    border-color: green;
 }
 
 
