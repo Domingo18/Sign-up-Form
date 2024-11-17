@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up-Form</title>
+</head>
+<body>
+    <div class="Sign-Up-Form">
+        <div class="signUpImgContainer">  
+            <img src="img/georgi-kalaydzhiev-kwIYYoBAfDc-unsplash.jpg" alt="picture of a woman">
+            <div class="namePlate"> 
+                <p class="company-name">DomCorp</p>
+            </div>
+        </div>
+        <div class="form-container">
+            <section class="intro">
+                <p> This is example text. It has to be somewhat a of big paragraph. Maybe it doesn't but I don't know.</p>
+                <p> Please sign up!</p>
+            </section>
+            <form>
+                <legend>
+                    <h1>
+                        Sign up here!
+                    </h1> 
+                    </legend>
+                <div class="name">
+                    <div class="firstname">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" name="firstname" min="3">
+                    </div>
+                        
+                    <div class="lastname">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" name="lastname"  min="3">
+                    </div>
+                </div>
+                 <div class="contactinfo">
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" min="3">
+                    </div>
+                        
+                    <div class="phonenumber">
+                        <label for="phone-number">Phone Number:</label>
+                    <input type="tel" name="phone-number" min="3">
+                    </div>
+                </div>
+                <div class="credentials">
+                     <div class="password">
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" min="8">
+                        </div>  
+                        <div class="confirmpassword">
+                            <label for="confirm-password">Confirm Password:</label>
+                            <input type="password" name="confirm-password" min="8">
+                        </div>
+                </div>
+    
+                <button type="submit" id="submit"> Create Account</button>
+            </form> 
+            <section class="submit">
+                <p>Already signed up? </p>
+                <span> <a href="https://www.google.com">Log in</a> </span>
+            </section>
+
+        </div>
+    </div>
+</body>
+</html>
